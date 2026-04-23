@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.about, .skills, .projects {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    background: #ecf0f1;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 4px solid #3498db;
+}
+
+.projects .project {
+    background: #f8f9fa;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+    border-left: 4px solid #2ecc71;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #34495e;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 1rem;
+    }
+
+    section {
+        margin: 1rem auto;
+        padding: 0 0.5rem;
+    }
+
+    .about, .skills, .projects {
+        padding: 1rem;
+    }
+}
